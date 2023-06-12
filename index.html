@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js" defer></script>
+        <!-- le defer permet de retader l'exécution d'un script aprés que le DOM soit charger -->
+        <title>Portfolio</title>
+    </head>
+    <body>
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Soilahou</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Travail</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Salut,<br>je suis <span class="home__title-color">Soilahou</span><br> Développeur Web</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/soilahou-yahaya-67a2311a1/" class="home__social-icon" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Soilahyaya" class="home__social-icon"  target="_blank" rel="noopener"><i class='bx bxl-github' ></i></a>
+                </div>
+                
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/images/profil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+            
+            <!--^ ===== ABOUT ===== -->
+            <section class="about section " id="about">
+                <h2 class="section-title">A propos</h2>
+                
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/images/profil_2.JPG" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hey, je suis Soilahou YAHAYA</h2>
+                        <p class="about__text">En tant que développeur web et web mobile en formation, je suis passionné par la création d'expériences numériques innovantes. Mon objectif est de poursuivre ma formation en alternance en tant que Concepteur Développeur d'Applications pour approfondir mes compétences et contribuer à la réalisation de projets technologiques captivants.</p>           
+                    </div>                                   
+                </div>
+            </section>
+            
+            <!--&===== COMPÉTENCES =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">COMPÉTENCES</h2>
+                
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Compétences professionnelles</h2>
+                        <p class="skills__text">En tant que passionné du développement web,  j'ai eu l'occasion d'explorer différents langages et technologies. J'ai travaillé activement avec PHP et JavaScript, en développant des projets concrets. J'ai également eu l'opportunité de découvrir les frameworks React et Symfony, qui m'ont permis d'élargir mes compétences en développement web. De plus, j'ai eu une expérience initiale avec Python, qui m'a ouvert les portes vers de nouvelles possibilités de programmation. Je suis toujours enthousiaste à l'idée de continuer à apprendre et à développer mes compétences dans le domaine du développement web.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">80%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">75%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">50%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">55%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">REACT</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">55%</span>
+                            </div> -->
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <!-- <div>
+                                <span class="skills__percentage">55%</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/images/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">TRAVAIL</h2>
+                
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img" target="_blank" rel="noopener">
+                        <img src="assets/images/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            
+            <!--*===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <a href="mailto:yahaya.soilahou@gmail.com"> <h3 class="contact__subtitle"> <span class="contact__color"> mail : </span>yahaya.soilahou@gmail.com</h3></a>
+                <h3 class="contact__subtitle"><span class="contact__color"> Numéro : </span> 07 62 46 16 57</h3>
+                
+           
+            </section>
+        </main>
+        
+        <!--&===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Soilahou</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/soilahou-yahaya-67a2311a1/" class="footer__icon" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Soilahyaya" class="footer__icon"><i class='bx bxl-github'  target="_blank" rel="noopener"></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2023 Copyright - tout droits réservés</p>
+        </footer>
+        
+        
+    </body>
+    </html>
+    
